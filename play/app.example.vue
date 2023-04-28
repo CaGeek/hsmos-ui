@@ -1,13 +1,13 @@
+<!--
+ * @Author: chenanan
+ * @Date: 2023-04-28 00:21:17
+ * @LastEditors: chenanan
+ * @LastEditTime: 2023-04-29 00:08:48
+ * @Description:  
+-->
 <template>
   <div class="play-container">
-    <el-icon color="#409EFC">
-      <el-icon-check />
-    </el-icon>
-    <el-icon>
-      <el-icon-menu />
-    </el-icon>
-    <el-button>test</el-button>
-    <div v-loading="true" />
+     <el-empty description="description" />
   </div>
 </template>
 

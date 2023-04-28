@@ -28,14 +28,6 @@ const homeLang = computed(() => homeLocale[lang.value])
           </a>
         </div>
       </li>
-      <li>
-        <div class="card">
-          <resource-svg w="40" m="y-12" />
-          <h3>{{ homeLang['8'] }}</h3>
-          <p>{{ homeLang['9'] }}</p>
-          <a :href="`/${lang}/resource/index.html`"> {{ homeLang['5'] }} </a>
-        </div>
-      </li>
     </ul>
   </div>
 </template>
