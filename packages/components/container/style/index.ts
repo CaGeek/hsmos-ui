@@ -1,0 +1,6 @@
+import '@hsmos-ui/components/base/style'
+import '@hsmos-ui/theme-chalk/src/container.scss'
+import '@hsmos-ui/theme-chalk/src/aside.scss'
+import '@hsmos-ui/theme-chalk/src/footer.scss'
+import '@hsmos-ui/theme-chalk/src/header.scss'
+import '@hsmos-ui/theme-chalk/src/main.scss'
