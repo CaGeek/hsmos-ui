@@ -43,7 +43,6 @@ declare module '@vue/runtime-core' {
     ParallaxHome: typeof import('./.vitepress/vitepress/components/globals/parallax-home.vue')['default']
     PeopleSvg: typeof import('./.vitepress/vitepress/components/home/svg/people-svg.vue')['default']
     Playground: typeof import('./.vitepress/vitepress/components/icons/playground.vue')['default']
-    Resource: typeof import('./.vitepress/vitepress/components/globals/resource.vue')['default']
     ResourceSvg: typeof import('./.vitepress/vitepress/components/home/svg/resource-svg.vue')['default']
     RightLayerSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-layer-svg.vue')['default']
     RightLogoSmallList: typeof import('./.vitepress/vitepress/components/sponsors/right-logo-small-list.vue')['default']
