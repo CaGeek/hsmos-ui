@@ -152,12 +152,12 @@ import {
 } from 'vue'
 import { useResizeObserver } from '@vueuse/core'
 import { isNil } from 'lodash-unified'
-import { ElIcon } from '@hsmos-ui/components/icon'
 import {
   CircleClose,
   Hide as IconHide,
   View as IconView,
 } from '@element-plus/icons-vue'
+import { ElIcon } from '@hsmos-ui/components/icon'
 import {
   useFormDisabled,
   useFormItem,
@@ -337,7 +337,7 @@ const resizeTextarea = () => {
     // If the scrollbar is displayed, the height of the textarea needs more space than the calculated height.
     // If set textarea height in this case, the scrollbar will not hide.
     // So we need to hide scrollbar first, and reset it in next tick.
-    // see https://github.com/element-plus/element-plus/issues/8825
+    // see https://github.com/hsmos-ui/hsmos-ui/issues/8825
     textareaCalcStyle.value = {
       overflowY: 'hidden',
       ...textareaStyle,
@@ -366,7 +366,7 @@ const createOnceInitResize = (resizeTextarea: () => void) => {
     }
   }
 }
-// fix: https://github.com/element-plus/element-plus/issues/12074
+// fix: https://github.com/hsmos-ui/hsmos-ui/issues/12074
 const onceInitSizeTextarea = createOnceInitResize(resizeTextarea)
 
 const setNativeInputValue = () => {

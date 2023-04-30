@@ -70,7 +70,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 
-import type { TagProps } from 'element-plus'
+import type { TagProps } from 'hsmos-ui'
 
 type Item = { type: TagProps['type']; label: string }
 

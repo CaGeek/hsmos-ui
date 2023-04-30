@@ -12,7 +12,7 @@
     "skipLibCheck": true,
     "lib": ["WebWorker"],
     "paths": {
-      "element-plus": ["../packages/element-plus"],
+      "hsmos-ui": ["../packages/hsmos-ui"],
       "~/*": ["./.vitepress/vitepress/*"]
     },
     "types": ["../typings/components"],

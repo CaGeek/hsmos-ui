@@ -8,6 +8,7 @@ import {
   renderSlot,
   watch,
 } from 'vue'
+import { Plus } from '@element-plus/icons-vue'
 import {
   buildProps,
   definePropType,
@@ -17,7 +18,6 @@ import {
 } from '@hsmos-ui/utils'
 import { EVENT_CODE, UPDATE_MODEL_EVENT } from '@hsmos-ui/constants'
 import ElIcon from '@hsmos-ui/components/icon'
-import { Plus } from '@element-plus/icons-vue'
 import {
   useDeprecated,
   useNamespace,
@@ -150,7 +150,7 @@ export default defineComponent({
         replacement: '"model-value" or "v-model"',
         scope: 'ElTabs',
         version: '2.3.0',
-        ref: 'https://element-plus.org/en-US/component/tabs.html#attributes',
+        ref: 'https://hsmos-ui.org/en-US/component/tabs.html#attributes',
         type: 'Attribute',
       },
       computed(() => !!props.activeName)

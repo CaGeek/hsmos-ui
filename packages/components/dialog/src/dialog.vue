@@ -95,7 +95,7 @@ useDeprecated(
     from: 'the title slot',
     replacement: 'the header slot',
     version: '3.0.0',
-    ref: 'https://element-plus.org/en-US/component/dialog.html#slots',
+    ref: 'https://hsmos-ui.org/en-US/component/dialog.html#slots',
   },
   computed(() => !!slots.title)
 )
@@ -106,7 +106,7 @@ useDeprecated(
     from: 'custom-class',
     replacement: 'class',
     version: '2.3.0',
-    ref: 'https://element-plus.org/en-US/component/dialog.html#attributes',
+    ref: 'https://hsmos-ui.org/en-US/component/dialog.html#attributes',
     type: 'Attribute',
   },
   computed(() => !!props.customClass)

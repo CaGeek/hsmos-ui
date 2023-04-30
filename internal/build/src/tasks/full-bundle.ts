@@ -15,8 +15,8 @@ import {
   PKG_CAMELCASE_NAME,
 } from '@hsmos-ui/build-constants'
 import { epOutput, epRoot, localeRoot } from '@hsmos-ui/build-utils'
-import { version } from '../../../../packages/element-plus/version'
-import { ElementPlusAlias } from '../plugins/element-plus-alias'
+import { version } from '../../../../packages/hsmos-ui/version'
+import { ElementPlusAlias } from '../plugins/hsmos-ui-alias'
 import {
   formatBundleFilename,
   generateExternal,

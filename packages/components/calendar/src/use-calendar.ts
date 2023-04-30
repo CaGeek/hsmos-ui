@@ -117,7 +117,7 @@ export const useCalendar = (
   const prevYearDayjs = computed(() => date.value.subtract(1, 'year').date(1))
   const nextYearDayjs = computed(() => date.value.add(1, 'year').date(1))
 
-  // https://github.com/element-plus/element-plus/issues/3155
+  // https://github.com/hsmos-ui/hsmos-ui/issues/3155
   // Calculate the validate date range according to the start and end dates
   const calculateValidatedDateRange = (
     startDayjs: Dayjs,
@@ -179,7 +179,7 @@ export const useCalendar = (
       replacement: '"date-cell"',
       scope: 'ElCalendar',
       version: '2.3.0',
-      ref: 'https://element-plus.org/en-US/component/calendar.html#slots',
+      ref: 'https://hsmos-ui.org/en-US/component/calendar.html#slots',
       type: 'Slot',
     },
     computed(() => !!slots.dateCell)

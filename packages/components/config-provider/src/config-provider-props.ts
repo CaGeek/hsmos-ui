@@ -58,7 +58,7 @@ export const configProviderProps = buildProps({
    */
   zIndex: Number,
   /**
-   * @description global component className prefix (cooperated with [$namespace](https://github.com/element-plus/element-plus/blob/dev/packages/theme-chalk/src/mixins/config.scss#L1)) | ^[string]
+   * @description global component className prefix (cooperated with [$namespace](https://github.com/hsmos-ui/hsmos-ui/blob/dev/packages/theme-chalk/src/mixins/config.scss#L1)) | ^[string]
    */
   namespace: {
     type: String,

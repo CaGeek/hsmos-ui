@@ -180,7 +180,7 @@
               @input="debouncedQueryChange"
             />
           </div>
-          <!-- fix: https://github.com/element-plus/element-plus/issues/11415 -->
+          <!-- fix: https://github.com/hsmos-ui/hsmos-ui/issues/11415 -->
           <input
             v-if="isIOS && !multiple && filterable && readonly"
             ref="iOSInput"
@@ -304,18 +304,16 @@ import {
 } from 'vue'
 import { useResizeObserver } from '@vueuse/core'
 import { placements } from '@popperjs/core'
+import { ArrowDown, CircleClose } from '@element-plus/icons-vue'
 import { ClickOutside } from '@hsmos-ui/directives'
 import { useFocus, useLocale, useNamespace } from '@hsmos-ui/hooks'
 import ElInput from '@hsmos-ui/components/input'
-import ElTooltip, {
-  useTooltipContentProps,
-} from '@hsmos-ui/components/tooltip'
+import ElTooltip, { useTooltipContentProps } from '@hsmos-ui/components/tooltip'
 import ElScrollbar from '@hsmos-ui/components/scrollbar'
 import ElTag, { tagProps } from '@hsmos-ui/components/tag'
 import ElIcon from '@hsmos-ui/components/icon'
 import { CHANGE_EVENT, UPDATE_MODEL_EVENT } from '@hsmos-ui/constants'
 import { iconPropType, isIOS, isValidComponentSize } from '@hsmos-ui/utils'
-import { ArrowDown, CircleClose } from '@element-plus/icons-vue'
 import ElOption from './option.vue'
 import ElSelectMenu from './select-dropdown.vue'
 import { useSelect, useSelectStates } from './useSelect'

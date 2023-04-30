@@ -20,7 +20,7 @@ Since Vue 3 no longer supports IE11, Element Plus does not support IE either.
 
 Element Plus is currently in a rapid development iteration.
 
-[![ElementPlus version badge](https://img.shields.io/npm/v/element-plus.svg?style=flat-square)](https://www.npmjs.org/package/element-plus)
+[![ElementPlus version badge](https://img.shields.io/npm/v/hsmos-ui.svg?style=flat-square)](https://www.npmjs.org/package/hsmos-ui)
 
 ## Using Package Manager
 
@@ -32,13 +32,13 @@ so that you can utilize bundlers like [Vite](https://vitejs.dev) and
 # Choose a package manager you like.
 
 # NPM
-$ npm install element-plus --save
+$ npm install hsmos-ui --save
 
 # Yarn
-$ yarn add element-plus
+$ yarn add hsmos-ui
 
 # pnpm
-$ pnpm install element-plus
+$ pnpm install hsmos-ui
 ```
 
 If your network environment is not good, it is recommended to use a mirror registry [cnpm](https://github.com/cnpm/cnpm) or [Alibaba](https://registry.npmmirror.com/).
@@ -56,11 +56,11 @@ You can also use other CDN providers.
 ```html
 <head>
   <!-- Import style -->
-  <link rel="stylesheet" href="//unpkg.com/element-plus/dist/index.css" />
+  <link rel="stylesheet" href="//unpkg.com/hsmos-ui/dist/index.css" />
   <!-- Import Vue 3 -->
   <script src="//unpkg.com/vue@3"></script>
   <!-- Import component library -->
-  <script src="//unpkg.com/element-plus"></script>
+  <script src="//unpkg.com/hsmos-ui"></script>
 </head>
 ```
 
@@ -71,12 +71,12 @@ You can also use other CDN providers.
   <!-- Import style -->
   <link
     rel="stylesheet"
-    href="//cdn.jsdelivr.net/npm/element-plus/dist/index.css"
+    href="//cdn.jsdelivr.net/npm/hsmos-ui/dist/index.css"
   />
   <!-- Import Vue 3 -->
   <script src="//cdn.jsdelivr.net/npm/vue@3"></script>
   <!-- Import component library -->
-  <script src="//cdn.jsdelivr.net/npm/element-plus"></script>
+  <script src="//cdn.jsdelivr.net/npm/hsmos-ui"></script>
 </head>
 ```
 

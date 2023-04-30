@@ -258,7 +258,7 @@ function setCurrentValue(value: number, event?: MouseEvent) {
     return
   }
   if (props.allowHalf && event) {
-    // TODO: use cache via computed https://github.com/element-plus/element-plus/pull/5456#discussion_r786472092
+    // TODO: use cache via computed https://github.com/hsmos-ui/hsmos-ui/pull/5456#discussion_r786472092
     let target = event.target as HTMLElement
     if (hasClass(target, ns.e('item'))) {
       target = target.querySelector(`.${ns.e('icon')}`)!

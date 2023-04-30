@@ -4,13 +4,13 @@
   "description": "Element component chalk theme.",
   "keywords": [
     "vue-components",
-    "element-plus",
+    "hsmos-ui",
     "theme-chalk",
     "theme-light"
   ],
-  "homepage": "https://github.com/element-plus/element-plus/blob/dev/packages/theme-chalk/README.md",
+  "homepage": "https://github.com/hsmos-ui/hsmos-ui/blob/dev/packages/theme-chalk/README.md",
   "bugs": {
-    "url": "https://github.com/element-plus/element-plus#issues"
+    "url": "https://github.com/hsmos-ui/hsmos-ui#issues"
   },
   "license": "MIT",
   "author": "yi.shyang@ele.me",
@@ -19,7 +19,7 @@
   "jsdelivr": "index.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/element-plus/element-plus.git"
+    "url": "git+https://github.com/hsmos-ui/hsmos-ui.git"
   },
   "style": "index.css",
   "scripts": {
@@ -27,8 +27,8 @@
     "build": "gulp --require @esbuild-kit/cjs-loader"
   },
   "devDependencies": {
+    "@esbuild-kit/cjs-loader": "^2.4.2",
     "@hsmos-ui/build": "workspace:*",
-    "@esbuild-kit/cjs-loader": "^2.2.1",
     "@types/gulp-autoprefixer": "^0.0.33",
     "@types/gulp-clean-css": "^4.3.0",
     "@types/gulp-rename": "^2.0.1",

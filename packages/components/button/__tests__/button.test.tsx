@@ -163,7 +163,7 @@ describe('Button.vue', () => {
   })
 
   it('tag', () => {
-    const link = 'https://github.com/element-plus/element-plus'
+    const link = 'https://github.com/hsmos-ui/hsmos-ui'
     const wrapper = mount(() => (
       <Button tag="a" href={link}>
         {AXIOM}

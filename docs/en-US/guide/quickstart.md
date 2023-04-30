@@ -16,8 +16,8 @@ If you don’t care about the bundle size so much, it’s more convenient to use
 ```typescript
 // main.ts
 import { createApp } from 'vue'
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css'
+import ElementPlus from 'hsmos-ui'
+import 'hsmos-ui/dist/index.css'
 import App from './App.vue'
 
 const app = createApp(App)
@@ -35,7 +35,7 @@ If you use volar, please add the global component type definition to `compilerOp
 {
   "compilerOptions": {
     // ...
-    "types": ["element-plus/global"]
+    "types": ["hsmos-ui/global"]
   }
 }
 ```
@@ -102,10 +102,10 @@ For more bundlers ([Rollup](https://rollupjs.org/), [Vue CLI](https://cli.vuejs.
 
 #### Nuxt
 
-For Nuxt users, you only need to install `@element-plus/nuxt`.
+For Nuxt users, you only need to install `@hsmos-ui/nuxt`.
 
 ```shell
-npm install -D @element-plus/nuxt
+npm install -D @hsmos-ui/nuxt
 ```
 
 Then add the code below into your config file.
@@ -113,19 +113,19 @@ Then add the code below into your config file.
 ```ts
 // nuxt.config.ts
 export default defineNuxtConfig({
-  modules: ['@element-plus/nuxt'],
+  modules: ['@hsmos-ui/nuxt'],
 })
 ```
 
-Refer to the [docs](https://github.com/element-plus/element-plus-nuxt#readme) for how to configure it.
+Refer to the [docs](https://github.com/hsmos-ui/hsmos-ui-nuxt#readme) for how to configure it.
 
 ### Manually import
 
 Element Plus provides out of box [Tree Shaking](https://webpack.js.org/guides/tree-shaking/)
 functionalities based on ES Module.
 
-But you need install [unplugin-element-plus](https://github.com/element-plus/unplugin-element-plus) for style import.
-And refer to the [docs](https://github.com/element-plus/unplugin-element-plus#readme) for how to configure it.
+But you need install [unplugin-element-plus](https://github.com/hsmos-ui/unplugin-element-plus) for style import.
+And refer to the [docs](https://github.com/hsmos-ui/unplugin-element-plus#readme) for how to configure it.
 
 > App.vue
 
@@ -134,7 +134,7 @@ And refer to the [docs](https://github.com/element-plus/unplugin-element-plus#re
   <el-button>I am ElButton</el-button>
 </template>
 <script>
-  import { ElButton } from 'element-plus'
+  import { ElButton } from 'hsmos-ui'
   export default {
     components: { ElButton },
   }
@@ -159,19 +159,19 @@ You need to manually import the styles if you're using `unplugin-element-plus` a
 Example:
 
 ```ts
-import 'element-plus/es/components/message/style/css'
-import { ElMessage } from 'element-plus'
+import 'hsmos-ui/es/components/message/style/css'
+import { ElMessage } from 'hsmos-ui'
 ```
 
 :::
 
 ## Starter Template
 
-We provide a [Vite Template](https://github.com/element-plus/element-plus-vite-starter).
+We provide a [Vite Template](https://github.com/hsmos-ui/hsmos-ui-vite-starter).
 
-For Nuxt users we have a [Nuxt Template](https://github.com/element-plus/element-plus-nuxt-starter).
+For Nuxt users we have a [Nuxt Template](https://github.com/hsmos-ui/hsmos-ui-nuxt-starter).
 
-For Laravel users we have a [Laravel Template](https://github.com/element-plus/element-plus-in-laravel-starter).
+For Laravel users we have a [Laravel Template](https://github.com/hsmos-ui/hsmos-ui-in-laravel-starter).
 
 ## Global Configuration
 
@@ -183,7 +183,7 @@ Full import:
 
 ```ts
 import { createApp } from 'vue'
-import ElementPlus from 'element-plus'
+import ElementPlus from 'hsmos-ui'
 import App from './App.vue'
 
 const app = createApp(App)
@@ -201,7 +201,7 @@ On-demand:
 
 <script>
 import { defineComponent } from 'vue'
-import { ElConfigProvider } from 'element-plus'
+import { ElConfigProvider } from 'hsmos-ui'
 
 export default defineComponent({
   components: {
@@ -222,10 +222,10 @@ export default defineComponent({
 We can also use [Nuxt.js](https://v3.nuxtjs.org/)：
 
 <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
-  <iframe src="https://glitch.com/edit/#!/nuxt-element-plus?path=components%2FExamples.vue%3A1%3A0" alt="nuxt-element-plus on glitch" style="height: 100%; width: 100%; border: 0;"></iframe>
+  <iframe src="https://glitch.com/edit/#!/nuxt-hsmos-ui?path=components%2FExamples.vue%3A1%3A0" alt="nuxt-hsmos-ui on glitch" style="height: 100%; width: 100%; border: 0;"></iframe>
 </div>
 
 ## Let's Get Started
 
 You can bootstrap your project from now on. For each components usage, please
-refer to [the individual component documentation](https://element-plus.org/en-US/component/button.html).
+refer to [the individual component documentation](https://hsmos-ui.org/en-US/component/button.html).

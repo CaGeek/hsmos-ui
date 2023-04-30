@@ -36,7 +36,7 @@ const reComponentName: ReComponentName = (title) => {
 }
 
 const reDocUrl: ReDocUrl = (fileName, header) => {
-  const docs = 'https://element-plus.org/en-US/component/'
+  const docs = 'https://hsmos-ui.org/en-US/component/'
   const _header = header
     ? removeTag(header).replaceAll(/\s+/g, '-').toLowerCase()
     : ''

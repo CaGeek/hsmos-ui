@@ -27,7 +27,7 @@ the project will launch website for you to preview all existing component.
 
 ## Local development
 
-See [Local development guide](https://github.com/element-plus/element-plus/blob/dev/CONTRIBUTING.md)
+See [Local development guide](https://github.com/hsmos-ui/hsmos-ui/blob/dev/CONTRIBUTING.md)
 
 1. With command
 

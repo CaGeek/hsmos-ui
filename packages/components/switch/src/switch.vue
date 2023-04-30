@@ -78,6 +78,7 @@ import {
   watch,
 } from 'vue'
 import { isPromise } from '@vue/shared'
+import { Loading } from '@element-plus/icons-vue'
 import { addUnit, debugWarn, isBoolean, throwError } from '@hsmos-ui/utils'
 import ElIcon from '@hsmos-ui/components/icon'
 import {
@@ -86,7 +87,6 @@ import {
   useFormItemInputId,
   useFormSize,
 } from '@hsmos-ui/components/form'
-import { Loading } from '@element-plus/icons-vue'
 import {
   CHANGE_EVENT,
   INPUT_EVENT,
@@ -115,7 +115,7 @@ useDeprecated(
     replacement: '"model-value" or "v-model"',
     scope: COMPONENT_NAME,
     version: '2.3.0',
-    ref: 'https://element-plus.org/en-US/component/switch.html#attributes',
+    ref: 'https://hsmos-ui.org/en-US/component/switch.html#attributes',
     type: 'Attribute',
   },
   computed(() => !!vm.vnode.props?.value)

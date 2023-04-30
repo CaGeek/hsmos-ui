@@ -18,12 +18,12 @@ async function main() {
   consola.log(chalk.cyan(`$TAG_VERSION: ${tagVersion}`))
   consola.log(chalk.cyan(`$GIT_HEAD: ${gitHead}`))
 
-  consola.debug(chalk.yellow(`Updating package.json for element-plus`))
+  consola.debug(chalk.yellow(`Updating package.json for hsmos-ui`))
 
   const pkgs = Object.fromEntries(
     (await getWorkspacePackages()).map((pkg) => [pkg.manifest.name!, pkg])
   )
-  const elementPlus = pkgs['element-plus'] || pkgs['@element-plus/nightly']
+  const elementPlus = pkgs['hsmos-ui'] || pkgs['@hsmos-ui/nightly']
   const eslintConfig = pkgs['@hsmos-ui/eslint-config']
   const metadata = pkgs['@hsmos-ui/metadata']
 

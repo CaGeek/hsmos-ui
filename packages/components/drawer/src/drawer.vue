@@ -111,7 +111,7 @@ export default defineComponent({
         from: 'the title slot',
         replacement: 'the header slot',
         version: '3.0.0',
-        ref: 'https://element-plus.org/en-US/component/drawer.html#slots',
+        ref: 'https://hsmos-ui.org/en-US/component/drawer.html#slots',
       },
       computed(() => !!slots.title)
     )
@@ -121,7 +121,7 @@ export default defineComponent({
         from: 'custom-class',
         replacement: 'class',
         version: '2.3.0',
-        ref: 'https://element-plus.org/en-US/component/drawer.html#attributes',
+        ref: 'https://hsmos-ui.org/en-US/component/drawer.html#attributes',
         type: 'Attribute',
       },
       computed(() => !!props.customClass)

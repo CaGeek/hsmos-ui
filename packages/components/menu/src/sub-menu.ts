@@ -15,16 +15,11 @@ import {
   withDirectives,
 } from 'vue'
 import { useTimeoutFn } from '@vueuse/core'
+import { ArrowDown, ArrowRight } from '@element-plus/icons-vue'
 import ElCollapseTransition from '@hsmos-ui/components/collapse-transition'
 import ElTooltip from '@hsmos-ui/components/tooltip'
-import {
-  buildProps,
-  iconPropType,
-  isString,
-  throwError,
-} from '@hsmos-ui/utils'
+import { buildProps, iconPropType, isString, throwError } from '@hsmos-ui/utils'
 import { useDeprecated, useNamespace } from '@hsmos-ui/hooks'
-import { ArrowDown, ArrowRight } from '@element-plus/icons-vue'
 import { ElIcon } from '@hsmos-ui/components/icon'
 import useMenu from './use-menu'
 import { useMenuCssVar } from './use-menu-css-var'
@@ -87,7 +82,7 @@ export default defineComponent({
         replacement: 'teleported',
         scope: COMPONENT_NAME,
         version: '2.3.0',
-        ref: 'https://element-plus.org/en-US/component/menu.html#submenu-attributes',
+        ref: 'https://hsmos-ui.org/en-US/component/menu.html#submenu-attributes',
       },
       computed(() => props.popperAppendToBody !== undefined)
     )

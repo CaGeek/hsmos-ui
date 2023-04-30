@@ -8,7 +8,7 @@ import esbuild from 'rollup-plugin-esbuild'
 import glob from 'fast-glob'
 import { epRoot, excludeFiles, pkgRoot } from '@hsmos-ui/build-utils'
 import { generateExternal, writeBundles } from '../utils'
-import { ElementPlusAlias } from '../plugins/element-plus-alias'
+import { ElementPlusAlias } from '../plugins/hsmos-ui-alias'
 import { buildConfigEntries, target } from '../build-info'
 
 import type { OutputOptions } from 'rollup'

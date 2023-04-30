@@ -28,11 +28,11 @@ const alias: Alias[] = [
 if (process.env.DOC_ENV !== 'production') {
   alias.push(
     {
-      find: /^element-plus(\/(es|lib))?$/,
-      replacement: path.resolve(projRoot, 'packages/element-plus/index.ts'),
+      find: /^hsmos-ui(\/(es|lib))?$/,
+      replacement: path.resolve(projRoot, 'packages/hsmos-ui/index.ts'),
     },
     {
-      find: /^element-plus\/(es|lib)\/(.*)$/,
+      find: /^hsmos-ui\/(es|lib)\/(.*)$/,
       replacement: `${path.resolve(projRoot, 'packages')}/$2`,
     }
   )
@@ -47,7 +47,7 @@ export default defineConfig(async ({ mode }) => {
   const optimizeDeps = [...new Set([...epDeps, ...docsDeps])].filter(
     (dep) =>
       !dep.startsWith('@types/') &&
-      !['@hsmos-ui/metadata', 'element-plus'].includes(dep)
+      !['@hsmos-ui/metadata', 'hsmos-ui'].includes(dep)
   )
 
   optimizeDeps.push(

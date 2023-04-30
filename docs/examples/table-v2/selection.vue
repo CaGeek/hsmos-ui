@@ -16,10 +16,10 @@
 
 <script lang="tsx" setup>
 import { ref, unref } from 'vue'
-import { ElCheckbox } from 'element-plus'
+import { ElCheckbox } from 'hsmos-ui'
 
 import type { FunctionalComponent } from 'vue'
-import type { CheckboxValueType, Column } from 'element-plus'
+import type { CheckboxValueType, Column } from 'hsmos-ui'
 
 type SelectionCellProps = {
   value: boolean

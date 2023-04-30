@@ -9,7 +9,7 @@ When using Element Plus for SSR development, you need to carry out special handl
 
 :::tip
 
-For Nuxt users, we provide a [Nuxt module](https://github.com/element-plus/element-plus-nuxt) that contains these special processes. You only need to install it.
+For Nuxt users, we provide a [Nuxt module](https://github.com/hsmos-ui/hsmos-ui-nuxt) that contains these special processes. You only need to install it.
 
 :::
 
@@ -21,7 +21,7 @@ Because the different IDs are prone to hydrate errors in SSR, in order to ensure
 ```ts
 // src/main.js (irrelevant code omitted)
 import { createApp } from 'vue'
-import { ID_INJECTION_KEY } from 'element-plus'
+import { ID_INJECTION_KEY } from 'hsmos-ui'
 import App from './App.vue'
 
 const app = createApp(App)

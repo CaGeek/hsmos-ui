@@ -75,7 +75,7 @@ export const useSelect = (props, states: States, ctx) => {
       replacement: 'override style scheme',
       version: '2.3.0',
       scope: 'props',
-      ref: 'https://element-plus.org/en-US/component/select.html#select-attributes',
+      ref: 'https://hsmos-ui.org/en-US/component/select.html#select-attributes',
     },
     computed(() => props.suffixTransition === false)
   )

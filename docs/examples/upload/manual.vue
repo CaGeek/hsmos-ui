@@ -22,7 +22,7 @@
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue'
-import type { UploadInstance } from 'element-plus'
+import type { UploadInstance } from 'hsmos-ui'
 
 const uploadRef = ref<UploadInstance>()
 

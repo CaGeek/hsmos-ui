@@ -13,12 +13,7 @@
 
 <script lang="tsx" setup>
 import { ref } from 'vue'
-import {
-  ElButton,
-  ElTag,
-  TableV2FixedDir,
-  TableV2SortOrder,
-} from 'element-plus'
+import { ElButton, ElTag, TableV2FixedDir, TableV2SortOrder } from 'hsmos-ui'
 
 import type { Column, SortBy } from '@hsmos-ui/components/table-v2'
 

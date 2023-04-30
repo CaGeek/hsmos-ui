@@ -1,4 +1,4 @@
-import ElementPlus from 'element-plus'
+import ElementPlus from 'hsmos-ui'
 
 import VPApp, { NotFound, globals } from '../vitepress'
 import { define } from '../utils/types'
