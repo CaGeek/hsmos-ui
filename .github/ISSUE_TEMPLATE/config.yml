@@ -1,5 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Create new issue
-    url: https://issue.hsmos-ui.org/
-    about: The issue which is not created via https://issue.hsmos-ui.org/ will be closed immediately.
