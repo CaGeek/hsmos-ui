@@ -1,5 +1,5 @@
 import { buildProps, iconPropType } from '@hsmos-ui/utils'
-import { Back } from '@element-plus/icons-vue'
+import { Back } from '@hsmos-ui/icons-vue'
 import type { ExtractPropTypes } from 'vue'
 import type PageHeader from './page-header.vue'
 

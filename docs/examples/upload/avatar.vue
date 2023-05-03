@@ -14,7 +14,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import { ElMessage } from 'hsmos-ui'
-import { Plus } from '@element-plus/icons-vue'
+import { Plus } from '@hsmos-ui/icons-vue'
 
 import type { UploadProps } from 'hsmos-ui'
 

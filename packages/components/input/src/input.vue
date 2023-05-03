@@ -156,7 +156,7 @@ import {
   CircleClose,
   Hide as IconHide,
   View as IconView,
-} from '@element-plus/icons-vue'
+} from '@hsmos-ui/icons-vue'
 import { ElIcon } from '@hsmos-ui/components/icon'
 import {
   useFormDisabled,

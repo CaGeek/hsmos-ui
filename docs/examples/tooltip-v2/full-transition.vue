@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import { Plus } from '@element-plus/icons-vue'
+import { Plus } from '@hsmos-ui/icons-vue'
 
 const transitionProps = {
   name: 'el-fade-in-linear',

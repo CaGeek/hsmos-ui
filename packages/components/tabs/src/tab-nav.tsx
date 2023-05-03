@@ -23,7 +23,7 @@ import {
 } from '@hsmos-ui/utils'
 import { EVENT_CODE } from '@hsmos-ui/constants'
 import { ElIcon } from '@hsmos-ui/components/icon'
-import { ArrowLeft, ArrowRight, Close } from '@element-plus/icons-vue'
+import { ArrowLeft, ArrowRight, Close } from '@hsmos-ui/icons-vue'
 import { useNamespace } from '@hsmos-ui/hooks'
 import TabBar from './tab-bar.vue'
 import { tabsRootContextKey } from './constants'

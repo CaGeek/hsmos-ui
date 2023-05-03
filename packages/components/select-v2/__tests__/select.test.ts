@@ -6,7 +6,7 @@ import { hasClass } from '@hsmos-ui/utils'
 import { EVENT_CODE } from '@hsmos-ui/constants'
 import { makeMountFunc } from '@hsmos-ui/test-utils/make-mount'
 import { rAF } from '@hsmos-ui/test-utils/tick'
-import { CircleClose } from '@element-plus/icons-vue'
+import { CircleClose } from '@hsmos-ui/icons-vue'
 import { usePopperContainerId } from '@hsmos-ui/hooks'
 import Select from '../src/select.vue'
 

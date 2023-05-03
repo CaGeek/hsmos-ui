@@ -78,7 +78,7 @@ import {
   watch,
 } from 'vue'
 import { isPromise } from '@vue/shared'
-import { Loading } from '@element-plus/icons-vue'
+import { Loading } from '@hsmos-ui/icons-vue'
 import { addUnit, debugWarn, isBoolean, throwError } from '@hsmos-ui/utils'
 import ElIcon from '@hsmos-ui/components/icon'
 import {

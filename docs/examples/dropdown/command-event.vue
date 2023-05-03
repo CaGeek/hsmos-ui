@@ -17,7 +17,7 @@
 
 <script lang="ts" setup>
 import { ElMessage } from 'hsmos-ui'
-import { ArrowDown } from '@element-plus/icons-vue'
+import { ArrowDown } from '@hsmos-ui/icons-vue'
 
 const handleCommand = (command: string | number | object) => {
   ElMessage(`click on item ${command}`)

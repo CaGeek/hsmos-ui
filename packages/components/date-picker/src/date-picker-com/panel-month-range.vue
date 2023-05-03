@@ -103,7 +103,7 @@ import { computed, inject, ref, toRef } from 'vue'
 import dayjs from 'dayjs'
 import ElIcon from '@hsmos-ui/components/icon'
 import { useLocale } from '@hsmos-ui/hooks'
-import { DArrowLeft, DArrowRight } from '@element-plus/icons-vue'
+import { DArrowLeft, DArrowRight } from '@hsmos-ui/icons-vue'
 import {
   panelMonthRangeEmits,
   panelMonthRangeProps,

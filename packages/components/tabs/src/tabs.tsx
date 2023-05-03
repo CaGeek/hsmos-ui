@@ -8,7 +8,7 @@ import {
   renderSlot,
   watch,
 } from 'vue'
-import { Plus } from '@element-plus/icons-vue'
+import { Plus } from '@hsmos-ui/icons-vue'
 import {
   buildProps,
   definePropType,

@@ -73,7 +73,7 @@ import {
 import { vRepeatClick } from '@hsmos-ui/directives'
 import { useLocale, useNamespace } from '@hsmos-ui/hooks'
 import { debugWarn, isNumber, isString, isUndefined } from '@hsmos-ui/utils'
-import { ArrowDown, ArrowUp, Minus, Plus } from '@element-plus/icons-vue'
+import { ArrowDown, ArrowUp, Minus, Plus } from '@hsmos-ui/icons-vue'
 import {
   CHANGE_EVENT,
   INPUT_EVENT,

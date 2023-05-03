@@ -33,7 +33,7 @@
 </template>
 
 <script lang="ts" setup>
-import { CaretBottom } from '@element-plus/icons-vue'
+import { CaretBottom } from '@hsmos-ui/icons-vue'
 </script>
 
 <style scoped>

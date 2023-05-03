@@ -213,7 +213,7 @@ import {
   ArrowRight,
   DArrowLeft,
   DArrowRight,
-} from '@element-plus/icons-vue'
+} from '@hsmos-ui/icons-vue'
 import { TOOLTIP_INJECTION_KEY } from '@hsmos-ui/components/tooltip'
 import { panelDatePickProps } from '../props/panel-date-pick'
 import DateTable from './basic-date-table.vue'

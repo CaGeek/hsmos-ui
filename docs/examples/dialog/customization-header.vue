@@ -19,7 +19,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import { ElButton, ElDialog } from 'hsmos-ui'
-import { CircleCloseFilled } from '@element-plus/icons-vue'
+import { CircleCloseFilled } from '@hsmos-ui/icons-vue'
 
 const visible = ref(false)
 </script>

@@ -6,7 +6,7 @@
 
 <script lang="ts" setup>
 import { useNamespace } from '@hsmos-ui/hooks'
-import { PictureFilled } from '@element-plus/icons-vue'
+import { PictureFilled } from '@hsmos-ui/icons-vue'
 import { skeletonItemProps } from './skeleton-item'
 
 defineOptions({

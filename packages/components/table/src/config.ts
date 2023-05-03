@@ -2,7 +2,7 @@
 import { h } from 'vue'
 import ElCheckbox from '@hsmos-ui/components/checkbox'
 import { ElIcon } from '@hsmos-ui/components/icon'
-import { ArrowRight, Loading } from '@element-plus/icons-vue'
+import { ArrowRight, Loading } from '@hsmos-ui/icons-vue'
 import { getProp } from '@hsmos-ui/utils'
 
 import type { VNode } from 'vue'

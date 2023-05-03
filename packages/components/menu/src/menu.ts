@@ -14,7 +14,7 @@ import {
 import { useResizeObserver } from '@vueuse/core'
 import { isNil } from 'lodash-unified'
 import ElIcon from '@hsmos-ui/components/icon'
-import { More } from '@element-plus/icons-vue'
+import { More } from '@hsmos-ui/icons-vue'
 import {
   buildProps,
   definePropType,

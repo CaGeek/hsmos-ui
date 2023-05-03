@@ -19,7 +19,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ArrowDown } from '@element-plus/icons-vue'
+import { ArrowDown } from '@hsmos-ui/icons-vue'
 </script>
 <style scoped>
 .example-showcase .el-dropdown-link {

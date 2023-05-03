@@ -102,7 +102,7 @@ import {
   OfficeBuilding,
   Tickets,
   User,
-} from '@element-plus/icons-vue'
+} from '@hsmos-ui/icons-vue'
 
 const size = ref('')
 const iconStyle = computed(() => {

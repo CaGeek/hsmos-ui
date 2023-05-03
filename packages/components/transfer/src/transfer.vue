@@ -60,7 +60,7 @@ import { useLocale, useNamespace } from '@hsmos-ui/hooks'
 import { ElButton } from '@hsmos-ui/components/button'
 import { ElIcon } from '@hsmos-ui/components/icon'
 import { useFormItem } from '@hsmos-ui/components/form'
-import { ArrowLeft, ArrowRight } from '@element-plus/icons-vue'
+import { ArrowLeft, ArrowRight } from '@hsmos-ui/icons-vue'
 import { transferEmits, transferProps } from './transfer'
 import {
   useCheckedChange,

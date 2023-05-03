@@ -64,7 +64,7 @@
 <script lang="ts" setup>
 import { computed, unref } from 'vue'
 import { ElIcon } from '@hsmos-ui/components/icon'
-import { ArrowLeft, ArrowRight } from '@element-plus/icons-vue'
+import { ArrowLeft, ArrowRight } from '@hsmos-ui/icons-vue'
 import { useNamespace } from '@hsmos-ui/hooks'
 import { carouselEmits, carouselProps } from './carousel'
 import { useCarousel } from './use-carousel'

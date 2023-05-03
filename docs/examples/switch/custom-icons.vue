@@ -13,7 +13,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { Check, Close } from '@element-plus/icons-vue'
+import { Check, Close } from '@hsmos-ui/icons-vue'
 const value1 = ref(true)
 const value2 = ref(true)
 </script>

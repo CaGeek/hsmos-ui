@@ -56,7 +56,7 @@ import { isEmpty } from '@hsmos-ui/utils'
 import { useLocale, useNamespace } from '@hsmos-ui/hooks'
 import { ElCheckbox, ElCheckboxGroup } from '@hsmos-ui/components/checkbox'
 import { ElInput } from '@hsmos-ui/components/input'
-import { Search } from '@element-plus/icons-vue'
+import { Search } from '@hsmos-ui/icons-vue'
 import { transferPanelEmits, transferPanelProps } from './transfer-panel'
 import { useCheck, usePropsAlias } from './composables'
 

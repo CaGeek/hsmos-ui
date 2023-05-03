@@ -1,7 +1,7 @@
 import { nextTick, ref } from 'vue'
 import { mount } from '@vue/test-utils'
 import { beforeEach, describe, expect, test, vi } from 'vitest'
-import { Check, Loading } from '@element-plus/icons-vue'
+import { Check, Loading } from '@hsmos-ui/icons-vue'
 import CascaderPanel from '../src/index.vue'
 
 import type {
@@ -454,7 +454,7 @@ describe('CascaderPanel.vue', () => {
       label: 'name',
       children: 'areas',
       disabled: 'invalid',
-      leaf: (data: typeof CUSTOM_PROPS_OPTIONS[0]) => !data.areas?.length,
+      leaf: (data: (typeof CUSTOM_PROPS_OPTIONS)[0]) => !data.areas?.length,
     }
     const wrapper = mount(() => (
       <CascaderPanel

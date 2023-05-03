@@ -65,7 +65,7 @@ import {
 } from 'vue'
 import { useNamespace } from '@hsmos-ui/hooks'
 import { ElIcon } from '@hsmos-ui/components/icon'
-import { Check, Close } from '@element-plus/icons-vue'
+import { Check, Close } from '@hsmos-ui/icons-vue'
 import { isNumber } from '@hsmos-ui/utils'
 import { stepProps } from './item'
 

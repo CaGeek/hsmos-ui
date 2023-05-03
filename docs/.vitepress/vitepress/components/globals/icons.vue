@@ -2,7 +2,7 @@
 import { computed, ref, shallowRef } from 'vue'
 import clipboardCopy from 'clipboard-copy'
 import { ElMessage } from 'hsmos-ui'
-import * as Icons from '@element-plus/icons-vue'
+import * as Icons from '@hsmos-ui/icons-vue'
 import { useLang } from '../../composables/lang'
 import localeData from '../../../i18n/component/icons.json'
 import IconCategories from './icons-categories.json'

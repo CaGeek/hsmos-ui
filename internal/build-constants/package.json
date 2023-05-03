@@ -6,6 +6,7 @@
     "hsmos-ui"
   ],
   "license": "MIT",
+  "author": "cageek",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

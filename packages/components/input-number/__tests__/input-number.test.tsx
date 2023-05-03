@@ -1,7 +1,7 @@
 import { nextTick, ref } from 'vue'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it, test, vi } from 'vitest'
-import { ArrowDown, ArrowUp } from '@element-plus/icons-vue'
+import { ArrowDown, ArrowUp } from '@hsmos-ui/icons-vue'
 import { ElFormItem } from '@hsmos-ui/components/form'
 import InputNumber from '../src/input-number.vue'
 

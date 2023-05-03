@@ -93,12 +93,7 @@
 </template>
 
 <script lang="ts" setup>
-import {
-  ArrowRight,
-  CaretBottom,
-  CaretTop,
-  Warning,
-} from '@element-plus/icons-vue'
+import { ArrowRight, CaretBottom, CaretTop, Warning } from '@hsmos-ui/icons-vue'
 </script>
 
 <style scoped>

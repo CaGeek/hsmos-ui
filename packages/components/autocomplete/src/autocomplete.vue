@@ -109,7 +109,7 @@ import {
 } from 'vue'
 import { debounce } from 'lodash-unified'
 import { onClickOutside } from '@vueuse/core'
-import { Loading } from '@element-plus/icons-vue'
+import { Loading } from '@hsmos-ui/icons-vue'
 import { useAttrs, useNamespace } from '@hsmos-ui/hooks'
 import { generateId, isArray, throwError } from '@hsmos-ui/utils'
 import {

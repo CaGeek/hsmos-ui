@@ -1,5 +1,5 @@
 import ElIcon from '@hsmos-ui/components/icon'
-import { SortDown, SortUp } from '@element-plus/icons-vue'
+import { SortDown, SortUp } from '@hsmos-ui/icons-vue'
 import { SortOrder } from '../constants'
 
 import type { FunctionalComponent } from 'vue'

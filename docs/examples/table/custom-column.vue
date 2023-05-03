@@ -38,7 +38,7 @@
 </template>
 
 <script lang="ts" setup>
-import { Timer } from '@element-plus/icons-vue'
+import { Timer } from '@hsmos-ui/icons-vue'
 
 interface User {
   date: string

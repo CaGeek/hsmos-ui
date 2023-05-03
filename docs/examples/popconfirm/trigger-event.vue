@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import { InfoFilled } from '@element-plus/icons-vue'
+import { InfoFilled } from '@hsmos-ui/icons-vue'
 
 const confirmEvent = () => {
   console.log('confirm!')

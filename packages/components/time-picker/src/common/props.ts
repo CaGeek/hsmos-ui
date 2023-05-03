@@ -1,6 +1,6 @@
 import { buildProps, definePropType } from '@hsmos-ui/utils'
 import { useSizeProp } from '@hsmos-ui/hooks'
-import { CircleClose } from '@element-plus/icons-vue'
+import { CircleClose } from '@hsmos-ui/icons-vue'
 import { disabledTimeListsProps } from '../props/shared'
 
 import type { Component, ExtractPropTypes } from 'vue'

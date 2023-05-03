@@ -15,7 +15,7 @@ import {
   withDirectives,
 } from 'vue'
 import { useTimeoutFn } from '@vueuse/core'
-import { ArrowDown, ArrowRight } from '@element-plus/icons-vue'
+import { ArrowDown, ArrowRight } from '@hsmos-ui/icons-vue'
 import ElCollapseTransition from '@hsmos-ui/components/collapse-transition'
 import ElTooltip from '@hsmos-ui/components/tooltip'
 import { buildProps, iconPropType, isString, throwError } from '@hsmos-ui/utils'

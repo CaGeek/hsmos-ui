@@ -4,7 +4,7 @@ import {
   CircleCloseFilled,
   InfoFilled,
   WarningFilled,
-} from '@element-plus/icons-vue'
+} from '@hsmos-ui/icons-vue'
 import type { Component, ExtractPropTypes } from 'vue'
 import type Result from './result.vue'
 
@@ -16,7 +16,7 @@ export const IconMap = {
 } as const
 
 export const IconComponentMap: Record<
-  typeof IconMap[keyof typeof IconMap],
+  (typeof IconMap)[keyof typeof IconMap],
   Component
 > = {
   [IconMap.success]: CircleCheckFilled,

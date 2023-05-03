@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "description": "Build Toolchain for Element Plus",
+  "author": "cageek",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -16,7 +17,7 @@
   },
   "dependencies": {
     "@hsmos-ui/build-constants": "workspace:^0.0.1",
-    "@pnpm/find-workspace-packages": "^4.0.43",
+    "@pnpm/find-workspace-packages": "^4.0.16",
     "@pnpm/logger": "^4.0.0",
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-node-resolve": "^13.3.0",

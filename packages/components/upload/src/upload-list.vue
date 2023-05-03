@@ -118,7 +118,7 @@ import {
   Delete,
   Document,
   ZoomIn,
-} from '@element-plus/icons-vue'
+} from '@hsmos-ui/icons-vue'
 import { useLocale, useNamespace } from '@hsmos-ui/hooks'
 import ElProgress from '@hsmos-ui/components/progress'
 import { useFormDisabled } from '@hsmos-ui/components/form'

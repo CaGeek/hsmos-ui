@@ -107,7 +107,7 @@ import {
   ScaleToOriginal,
   ZoomIn,
   ZoomOut,
-} from '@element-plus/icons-vue'
+} from '@hsmos-ui/icons-vue'
 import { imageViewerEmits, imageViewerProps } from './image-viewer'
 
 import type { CSSProperties } from 'vue'

@@ -82,7 +82,7 @@
 
 <script lang="ts">
 import { computed, defineComponent, ref } from 'vue'
-import { Close } from '@element-plus/icons-vue'
+import { Close } from '@hsmos-ui/icons-vue'
 
 import { ElOverlay } from '@hsmos-ui/components/overlay'
 import ElFocusTrap from '@hsmos-ui/components/focus-trap'

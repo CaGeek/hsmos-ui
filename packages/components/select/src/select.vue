@@ -304,7 +304,7 @@ import {
 } from 'vue'
 import { useResizeObserver } from '@vueuse/core'
 import { placements } from '@popperjs/core'
-import { ArrowDown, CircleClose } from '@element-plus/icons-vue'
+import { ArrowDown, CircleClose } from '@hsmos-ui/icons-vue'
 import { ClickOutside } from '@hsmos-ui/directives'
 import { useFocus, useLocale, useNamespace } from '@hsmos-ui/hooks'
 import ElInput from '@hsmos-ui/components/input'

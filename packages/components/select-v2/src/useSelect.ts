@@ -12,7 +12,7 @@ import {
 } from '@hsmos-ui/utils'
 import { useFormItem, useFormSize } from '@hsmos-ui/components/form'
 
-import { ArrowUp } from '@element-plus/icons-vue'
+import { ArrowUp } from '@hsmos-ui/icons-vue'
 import { useAllowCreate } from './useAllowCreate'
 
 import { flattenOptions } from './util'

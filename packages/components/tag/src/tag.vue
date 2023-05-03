@@ -31,7 +31,7 @@
 <script lang="ts" setup>
 import { computed } from 'vue'
 import ElIcon from '@hsmos-ui/components/icon'
-import { Close } from '@element-plus/icons-vue'
+import { Close } from '@hsmos-ui/icons-vue'
 import { useNamespace } from '@hsmos-ui/hooks'
 import { useFormSize } from '@hsmos-ui/components/form'
 

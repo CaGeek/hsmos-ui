@@ -42,7 +42,7 @@
 <script lang="ts" setup>
 import ElCollapseTransition from '@hsmos-ui/components/collapse-transition'
 import ElIcon from '@hsmos-ui/components/icon'
-import { ArrowRight } from '@element-plus/icons-vue'
+import { ArrowRight } from '@hsmos-ui/icons-vue'
 import { collapseItemProps } from './collapse-item'
 import { useCollapseItem, useCollapseItemDOM } from './use-collapse-item'
 

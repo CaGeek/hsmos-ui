@@ -16,7 +16,7 @@ import {
   ElPopover,
   TableV2FixedDir,
 } from 'hsmos-ui'
-import { Filter } from '@element-plus/icons-vue'
+import { Filter } from '@hsmos-ui/icons-vue'
 
 import type { HeaderCellSlotProps } from 'hsmos-ui'
 

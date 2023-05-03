@@ -122,7 +122,7 @@ import {
 import { useLocale, useNamespace } from '@hsmos-ui/hooks'
 import { UPDATE_MODEL_EVENT } from '@hsmos-ui/constants'
 import { debugWarn } from '@hsmos-ui/utils'
-import { ArrowDown, Close } from '@element-plus/icons-vue'
+import { ArrowDown, Close } from '@hsmos-ui/icons-vue'
 import AlphaSlider from './components/alpha-slider.vue'
 import HueSlider from './components/hue-slider.vue'
 import Predefine from './components/predefine.vue'

@@ -262,7 +262,7 @@ import {
   ArrowRight,
   DArrowLeft,
   DArrowRight,
-} from '@element-plus/icons-vue'
+} from '@hsmos-ui/icons-vue'
 import { panelDateRangeProps } from '../props/panel-date-range'
 import { useRangePicker } from '../composables/use-range-picker'
 import { getDefaultValue, isValidRange } from '../utils'

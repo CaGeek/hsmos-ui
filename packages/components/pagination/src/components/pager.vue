@@ -80,7 +80,7 @@
 </template>
 <script lang="ts" setup>
 import { computed, ref, watchEffect } from 'vue'
-import { DArrowLeft, DArrowRight, MoreFilled } from '@element-plus/icons-vue'
+import { DArrowLeft, DArrowRight, MoreFilled } from '@hsmos-ui/icons-vue'
 import { useLocale, useNamespace } from '@hsmos-ui/hooks'
 import { paginationPagerProps } from './pager'
 defineOptions({

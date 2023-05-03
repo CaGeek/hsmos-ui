@@ -1,6 +1,6 @@
 import { useSizeProp } from '@hsmos-ui/hooks'
 import { buildProps, definePropType, iconPropType } from '@hsmos-ui/utils'
-import { Loading } from '@element-plus/icons-vue'
+import { Loading } from '@hsmos-ui/icons-vue'
 import type { Component, ExtractPropTypes } from 'vue'
 
 export const buttonTypes = [

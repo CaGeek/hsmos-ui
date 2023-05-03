@@ -1,4 +1,4 @@
-import { Star, StarFilled } from '@element-plus/icons-vue'
+import { Star, StarFilled } from '@hsmos-ui/icons-vue'
 import { CHANGE_EVENT, UPDATE_MODEL_EVENT } from '@hsmos-ui/constants'
 import {
   buildProps,

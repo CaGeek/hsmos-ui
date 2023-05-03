@@ -1,9 +1,17 @@
+/*
+ * @Author: chenanan
+ * @Date: 2023-04-28 00:21:17
+ * @LastEditors: chenanan
+ * @LastEditTime: 2023-05-02 17:34:23
+ * @Description:
+ */
 import consola from 'consola'
 import chalk from 'chalk'
 import { errorAndExit, getWorkspacePackages } from '@hsmos-ui/build-utils'
 import type { Project } from '@pnpm/find-workspace-packages'
 
 async function main() {
+  console.info(process.env)
   const tagVersion = process.env.TAG_VERSION
   const gitHead = process.env.GIT_HEAD
   if (!tagVersion || !gitHead) {

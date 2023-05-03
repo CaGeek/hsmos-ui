@@ -1,5 +1,5 @@
 import ElIcon from '@hsmos-ui/components/icon'
-import { ArrowRight } from '@element-plus/icons-vue'
+import { ArrowRight } from '@hsmos-ui/icons-vue'
 
 import type { StyleValue } from 'vue'
 import type { TableV2RowCellRenderParam } from './row'

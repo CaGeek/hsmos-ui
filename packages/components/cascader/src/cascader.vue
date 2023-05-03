@@ -211,7 +211,7 @@ import {
   EVENT_CODE,
   UPDATE_MODEL_EVENT,
 } from '@hsmos-ui/constants'
-import { ArrowDown, Check, CircleClose } from '@element-plus/icons-vue'
+import { ArrowDown, Check, CircleClose } from '@hsmos-ui/icons-vue'
 import { cascaderEmits, cascaderProps } from './cascader'
 
 import type { Options } from '@hsmos-ui/components/popper'

@@ -91,7 +91,7 @@
 import { computed, defineComponent, getCurrentInstance, ref, watch } from 'vue'
 import ElCheckbox from '@hsmos-ui/components/checkbox'
 import { ElIcon } from '@hsmos-ui/components/icon'
-import { ArrowDown, ArrowUp } from '@element-plus/icons-vue'
+import { ArrowDown, ArrowUp } from '@hsmos-ui/icons-vue'
 import { ClickOutside } from '@hsmos-ui/directives'
 import { useLocale, useNamespace } from '@hsmos-ui/hooks'
 import ElTooltip from '@hsmos-ui/components/tooltip'

@@ -12,7 +12,7 @@
 import { ref } from 'vue'
 import dayjs from 'dayjs'
 import { ElButton, ElIcon, ElTag, ElTooltip, TableV2FixedDir } from 'hsmos-ui'
-import { Timer } from '@element-plus/icons-vue'
+import { Timer } from '@hsmos-ui/icons-vue'
 
 import type { Column, RowClassNameGetter } from 'hsmos-ui'
 

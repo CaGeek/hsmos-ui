@@ -1,5 +1,5 @@
 import { buttonTypes } from '@hsmos-ui/components/button'
-import { QuestionFilled } from '@element-plus/icons-vue'
+import { QuestionFilled } from '@hsmos-ui/icons-vue'
 import { buildProps, iconPropType } from '@hsmos-ui/utils'
 import { useTooltipContentProps } from '@hsmos-ui/components/tooltip'
 import type { ExtractPropTypes } from 'vue'

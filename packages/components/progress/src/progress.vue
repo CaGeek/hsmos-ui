@@ -87,7 +87,7 @@ import {
   CircleClose,
   Close,
   WarningFilled,
-} from '@element-plus/icons-vue'
+} from '@hsmos-ui/icons-vue'
 import { useNamespace } from '@hsmos-ui/hooks'
 import { isFunction, isString } from '@hsmos-ui/utils'
 import { progressProps } from './progress'

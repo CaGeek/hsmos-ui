@@ -1,7 +1,7 @@
 import { markRaw } from 'vue'
 import { mount } from '@vue/test-utils'
 import { describe, expect, test } from 'vitest'
-import { MoreFilled } from '@element-plus/icons-vue'
+import { MoreFilled } from '@hsmos-ui/icons-vue'
 import TimeLine from '../src/timeline'
 import TimeLineItem from '../src/timeline-item.vue'
 

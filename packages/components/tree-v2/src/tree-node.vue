@@ -54,7 +54,7 @@
 <script lang="ts" setup>
 import { computed, inject } from 'vue'
 import ElIcon from '@hsmos-ui/components/icon'
-import { CaretRight } from '@element-plus/icons-vue'
+import { CaretRight } from '@hsmos-ui/icons-vue'
 import ElCheckbox from '@hsmos-ui/components/checkbox'
 import { useNamespace } from '@hsmos-ui/hooks'
 import ElNodeContent from './tree-node-content'

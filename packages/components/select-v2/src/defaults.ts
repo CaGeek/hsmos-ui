@@ -1,7 +1,7 @@
 import { placements } from '@popperjs/core'
 import { definePropType, isValidComponentSize } from '@hsmos-ui/utils'
 import { useTooltipContentProps } from '@hsmos-ui/components/tooltip'
-import { CircleClose } from '@element-plus/icons-vue'
+import { CircleClose } from '@hsmos-ui/icons-vue'
 import type { Component, PropType } from 'vue'
 import type { ComponentSize } from '@hsmos-ui/constants'
 import type { OptionType } from './select.types'

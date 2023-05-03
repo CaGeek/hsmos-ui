@@ -16,7 +16,7 @@
 <script lang="ts" setup>
 import { computed } from 'vue'
 import { ElIcon } from '@hsmos-ui/components/icon'
-import { CaretTop } from '@element-plus/icons-vue'
+import { CaretTop } from '@hsmos-ui/icons-vue'
 import { useNamespace } from '@hsmos-ui/hooks'
 import { backtopEmits, backtopProps } from './backtop'
 import { useBackTop } from './use-backtop'

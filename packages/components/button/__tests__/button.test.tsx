@@ -1,7 +1,7 @@
 import { markRaw, nextTick, ref } from 'vue'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it, test } from 'vitest'
-import { Loading, Search } from '@element-plus/icons-vue'
+import { Loading, Search } from '@hsmos-ui/icons-vue'
 
 import Button from '../src/button.vue'
 import ButtonGroup from '../src/button-group.vue'

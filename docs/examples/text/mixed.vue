@@ -22,5 +22,5 @@
 </template>
 
 <script lang="ts" setup>
-import { Bell, ElementPlus } from '@element-plus/icons-vue'
+import { Bell, ElementPlus } from '@hsmos-ui/icons-vue'
 </script>

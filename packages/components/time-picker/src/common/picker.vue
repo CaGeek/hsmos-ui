@@ -178,7 +178,7 @@ import ElIcon from '@hsmos-ui/components/icon'
 import ElTooltip from '@hsmos-ui/components/tooltip'
 import { debugWarn, isArray } from '@hsmos-ui/utils'
 import { EVENT_CODE } from '@hsmos-ui/constants'
-import { Calendar, Clock } from '@element-plus/icons-vue'
+import { Calendar, Clock } from '@hsmos-ui/icons-vue'
 import { formatter, parseDate, valueEquals } from '../utils'
 import { timePickerDefaultProps } from './props'
 

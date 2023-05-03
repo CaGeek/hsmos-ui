@@ -32,7 +32,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ChatLineRound, Male } from '@element-plus/icons-vue'
+import { ChatLineRound, Male } from '@hsmos-ui/icons-vue'
 </script>
 
 <style scoped>
