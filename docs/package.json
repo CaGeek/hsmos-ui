@@ -9,7 +9,7 @@
     "crowdin-credentials": "tsx .vitepress/build/crowdin-credentials.ts"
   },
   "dependencies": {
-    "@docsearch/js": "^3.3.4",
+    "@docsearch/js": "^3.1.0",
     "@hsmos-ui/icons-vue": "^2.1.0",
     "@hsmos-ui/metadata": "workspace:*",
     "@vue/shared": "^3.2.47",
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@crowdin/cli": "^3.11.0",
-    "@docsearch/react": "^3.3.4",
+    "@docsearch/react": "^3.1.0",
     "@hsmos-ui/build": "workspace:*",
     "@hsmos-ui/build-constants": "workspace:*",
     "@hsmos-ui/build-utils": "workspace:*",
@@ -45,7 +45,7 @@
     "unplugin-vue-macros": "^0.11.2",
     "vite": "^2.9.15",
     "vite-plugin-inspect": "^0.5.1",
-    "vite-plugin-mkcert": "^1.14.1",
+    "vite-plugin-mkcert": "^1.7.2",
     "vite-plugin-pwa": "^0.12.8",
     "vitepress": "^0.22.4"
   }
